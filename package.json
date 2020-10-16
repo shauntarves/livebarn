@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Shaun Tarves",
+    "email": "shaun@tarves.net"
+  },
+  "bugs": {
+    "url": "https://github.com/shauntarves/livebarn/issues"
+  },
+  "name": "livebarn",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "description": "A Javascript library for fetching videos from the LiveBarn streaming service.",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shauntarves/livebarn.git"
+  },
+  "scripts": {
+    "lint": "eslint index.js lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
